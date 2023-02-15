@@ -9,6 +9,46 @@
  
 </head>
 <body>
+  
+  <!-- Work out how to create a keyup.enter equivalent from Vue.js to Vanilla JavaScript -->
+  
+
+<div id="app">
+    <div class="container">
+     
+      <label for="input">Please enter input below:</label>
+      <br />
+      <input onclick="keySubmit()" class="theInput" type="text" />
+      <br />
+
+      <div class="lContainer">
+        <label for="infoSubmitted">The Value Submitted is:</label>
+        <div class="output"></div>
+        <a onclick="reset()" class="reset" href="#">Reset &#8634;</a>
+      </div>
+      <h3 class="otherOutput"></h3>
+    </div>
+    
+    <!-- Keyup Test Currently Conducting -->
+    <div class="mContainer">
+      
+      <label for="text">Enter Text Here:</label>
+      <input class="mGroupText" onclick="addGroup()" type="text">
+       <label for="password">Enter Password Here:</label>
+      <input class="mGroupPass" onclick="addGroup()" type="password">
+      <label for="number">Enter Number Here:</label>
+      <input class="mGroupNum" onclick="addGroup()" type="number">
+      
+      <div id="mGroupOutput"></div>
+      
+    </div>
+   
+    
+    
+  </div>
+
+
+
 
 </body>
 </html>
