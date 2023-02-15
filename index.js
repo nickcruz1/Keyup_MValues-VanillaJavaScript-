@@ -8,3 +8,10 @@ function reset() {
     otherOutput.innerHTML = "";
   }, 2000);
 }
+
+function myReset() {
+  let output = document.querySelector(".output");
+  let otherOutput = document.querySelector(".otherOutput");
+  output.innerHTML = "";
+  otherOutput.innerHTML = "";
+}
