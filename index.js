@@ -15,3 +15,18 @@ function myReset() {
   output.innerHTML = "";
   otherOutput.innerHTML = "";
 }
+
+function keySubmit() {
+  let input = document.querySelector(".theInput");
+  let output = document.querySelector(".output");
+
+  output.innerHTML = input.value.toUpperCase();
+  input.value = "";
+  
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+})
+   
+}
