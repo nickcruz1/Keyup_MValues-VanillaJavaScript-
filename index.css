@@ -1,0 +1,108 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  border: 1px solid black;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+label,
+.output {
+  margin-left: 5px;
+}
+
+.output {
+  color: red;
+  font-weight: bolder;
+}
+
+input {
+  margin: auto;
+  width: 50%;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reset {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.reset:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.otherOutput {
+  text-align: center;
+  margin-top: 1rem;
+  color: blue;
+}
+  
+  .mContainer {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin: 1rem auto 1rem auto;
+  }
+  
+  .mContainer button {
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .mContainer button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .mvContainer {
+    display: flex;
+    margin: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: black;
+  }
+  
+  .mvText {
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .blueText {
+    color: aqua;
+  }
+  
+  .redText {
+    color: red;
+  }
+  
+  .greenText {
+    color: green;
+  }
+  
+
